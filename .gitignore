@@ -4,7 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Environment files
 .env
+.env.*
+!.env.example
 
 ### STS ###
 .apt_generated
@@ -33,3 +36,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS ###
+.DS_Store
